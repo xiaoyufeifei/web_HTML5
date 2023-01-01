@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5的list属性</title>
+</head>
+<body>
+    <form id="login" action="" method="get">
+        <label for="username">
+            <input id="username" type="text" name="username" placeholder="请输入密码" />
+        </label><br/>
+        <label for="password">
+            <input id="password" type="password" name="password" placeholder="请输入密码" />
+        </label><br/>
+        <label>
+            <input list="location" type="text" name="location" placeholder="户口所在地" />
+        </label>
+    </form>
+    <datalist id="location">
+        <option value="Beijing">北京</option>
+        <option value="Tianjin">天津</option>
+        <option value="Hebei">河北</option>
+    </datalist>
+</body>
+</html>

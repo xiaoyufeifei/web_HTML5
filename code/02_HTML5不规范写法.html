@@ -1,0 +1,26 @@
+<!-- 不规范的写法 -->
+<!DOCTYPE html>
+<!-- 这里省去了html元素，导致根元素不唯一 -->
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <!-- 这里属性值没有用“”括起来 -->
+    <img src=hello.gif alt=World>
+    <!-- 这里没有</p>结束标签 -->
+    <p>Hello Word!
+    
+</body>
+</html>
+
+<!-- 规范的写法 -->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+    <body>
+        <img src="hello.gif" alt="World">
+        <p>Hello word!</p>
+    </body>
+</html>
